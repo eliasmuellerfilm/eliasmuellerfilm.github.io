@@ -1,0 +1,468 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+/*Allgemeine Regeln*/
+
+.website-content {
+    background-color: white;
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    padding: 25px;
+    padding-bottom: 50px;
+}
+
+
+.about, .work, .contact, h2 {
+    max-width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.workstart, .workwer, .workdok, .workspi {
+    max-width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 10vh;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding-top: 2vh;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h8 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25pt;
+    font-weight: 600;
+    padding-top: 2vh;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+figure {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+
+
+
+
+/*Allgemeine Regeln - Spezielle Anpassungen*/
+
+
+
+.workspi {
+    justify-content: space-between;
+}
+
+.contactheader {
+    text-align: center;
+    padding-top: 10vh;
+}
+
+
+
+
+/*Title Screen*/
+
+body {
+    margin: 0px;
+    background-color: white;
+}
+
+#logo {
+    max-width: 70%;
+    margin-top: 15vh;
+    margin-left: 14vw;
+}
+
+#myVideo {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+p4 {
+    display: block;
+    margin: 1vh;
+    margin-bottom: 4vh;
+    margin
+}
+
+
+
+
+
+/*Scroll down Fade-In Animation*/
+
+@keyframes scrolldown {
+    0% {opacity: 0;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.scrolldown {
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 15vh;
+    animation-name: scrolldown;
+    animation-duration: 3s;
+}
+
+
+
+
+
+/*Pfeil Animation*/
+
+@keyframes pfeil {
+    0% {margin-top: -2vh; margin-bottom: 6vh; height: 7px; padding-bottom: 3px}
+    25% {margin-top: 0vh; margin-bottom: 4vh; height: 10px; padding-bottom: 0px}
+    50% {margin-top: -2vh; margin-bottom: 6vh; height: 7px; padding-bottom: 3px}
+    75% {margin-top: 0vh; margin-bottom: 4vh; height: 10px; padding-bottom: 0px}
+    100% {margin-top: -2vh; margin-bottom: 6vh; height: 7px; padding-bottom: 3px}
+}
+
+#pfeil {
+    position: relative;
+    width: 18px;
+    margin-top: -2vh;
+    margin-bottom: 6vh;
+    animation-name: pfeil;
+    animation-delay: 1.5s;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+
+
+
+
+/*Über Mich*/
+
+.about {
+    padding-bottom: 10vh;
+    margin-top: 7vh
+}
+
+.vorstellung {
+    display: flex;
+    align-items: flex-start;
+    margin: 30px;
+}
+
+#ich {
+    max-width: 30%;
+    margin-right: 4vh;
+}
+
+
+
+
+
+/*Arbeiten-Navigation*/
+
+ .worknav {
+    max-width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding: 2vw;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    margin-top: -20px;
+    background-color: white;
+    z-index: 150;
+}
+
+p5, .worklink {
+    margin-right: 20px;
+    color: black;
+}
+
+em {
+    font-style: normal;
+    font-weight: 1000;
+}
+
+
+
+
+
+
+/*Arbeiten*/
+
+#thumbnail {
+    max-width: 100%;
+    padding: 5px;
+}
+
+#thumbnail:hover {
+    opacity: 0.9;
+    transition: 0.3s;
+}
+
+#plakat {
+    max-width: 50%;
+    padding: 5px;
+    margin-right: -200px;
+}
+
+#movie {
+    margin-right: -200px;
+    max-width: 50%;
+}
+
+figcation {
+    text-align: center;
+}
+
+#tile {
+    max-width: 50%;
+}
+
+#moviefigcaption {
+    max-width: 52%;
+    text-align: center;
+}
+
+
+
+
+
+/*Worklink-Animation*/
+
+.figurefx {
+    max-width: 90%;
+    width: auto;
+    margin: 30px auto;
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+.figurefx figcaption {
+    position: absolute;
+    text-align: center;
+    background: white;
+    padding: 15px;
+    z-index: 100;
+    width: 100%;
+    max-height: 100%;
+    transition: all 0.5s;
+}
+
+.pushup img{
+    transition: all 0.5s;
+    
+}
+
+.pushup:hover img{
+    transform: translate3d(0, -20px, 0);
+    opacity: 0.5;
+}
+
+.pushup:hover figcaption{
+    transform: translate3d(0, -100%, 0);
+}
+
+
+
+
+
+/*Kontakt*/
+
+footer {
+    background-color: black;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    padding: 25px;
+    padding-bottom: 15vh;
+}
+
+.contact {
+    padding-bottom: 5vh;
+}
+
+.address {
+    text-align: center;
+    margin-top: 100px
+}
+
+p6 {
+    font-weight: 500;
+    margin-top: 10px;
+    
+}
+
+p7 {
+    display: block;
+    margin: 7px;
+}
+
+#mailto {
+    color: white;
+    display: block;
+    margin: 7px;
+}
+
+
+
+/*-----Subpages-----*/
+
+.goback {
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    margin-left: 5vh;
+    margin-top: 4vh;
+    position: absolute;
+}
+
+.sublogo {
+    max-width: 20vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#subpagelogo {
+    max-width: 100%;
+    margin-top: 5vh;}
+
+h3, h4, h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin: 0;
+}
+
+h3 {
+    font-size: 1vw;
+}
+
+h4 {
+    font-size: 3vw;
+    margin-bottom: 5vh
+}
+
+h5 {
+    font-size: 2vw;
+    margin-bottom: 5vh
+}
+
+@keyframes start {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+.mercedeswork {
+    margin-top: 50px;
+    animation-name: start;
+    animation-duration: 0.5s;
+}
+
+.subpagemainfigure, .credits {
+    max-width: 99%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5vh;
+    
+}
+
+.subpagetext {
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    margin-bottom: 10vh;
+}
+
+.credits {
+    max-width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 8vh;
+}
+
+.overcolumn {
+    
+}
+
+.column, .column2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.column2 {
+    margin-top: 3vh;
+}
+
+.btsbilder {
+    display: flex;
+    flex-direction: row;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    margin-bottom: 5vh;
+}
+
+#subpagesmallfigure {
+    max-width: 31%;
+    margin: 0;
+}
+
+p9 {
+    color: white;
+}
+
+
+
+
+/*-----Blog-----*/
+
+p2 {
+    font-weight: 400;
+    font-style: italic;
+    padding-bottom: 20px;
+}
+
+#blogheader {
+    margin-bottom: 7px;
+}
+
+.blogeintrag {
+    margin-top: 50px;
+}
