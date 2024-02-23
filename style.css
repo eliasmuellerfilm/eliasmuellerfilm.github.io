@@ -1,0 +1,99 @@
+.website-content {
+    background-color: white;
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    padding: 25px;
+    padding-bottom: 50px;
+}
+
+.about, .work, .contact, h2 {
+    max-width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+body {
+    margin: 0px;
+    background-color: white;
+}
+#logo {
+    max-width: 70%;
+    margin-top: 15vh;
+    margin-left: 14vw;
+}
+
+#myVideo {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+
+/*Scroll down Fade-In Animation*/
+
+@keyframes scrolldown {
+    0% {opacity: 0;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.scrolldown {
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 15vh;
+    animation-name: scrolldown;
+    animation-duration: 3s;
+}
+
+
+
+
+
+/*Pfeil Animation*/
+
+@keyframes pfeil {
+    0% {margin-top: -2vh; margin-bottom: 6vh; height: 7px; padding-bottom: 3px}
+    25% {margin-top: 0vh; margin-bottom: 4vh; height: 10px; padding-bottom: 0px}
+    50% {margin-top: -2vh; margin-bottom: 6vh; height: 7px; padding-bottom: 3px}
+    75% {margin-top: 0vh; margin-bottom: 4vh; height: 10px; padding-bottom: 0px}
+    100% {margin-top: -2vh; margin-bottom: 6vh; height: 7px; padding-bottom: 3px}
+}
+
+#pfeil {
+    position: relative;
+    width: 18px;
+    margin-top: -2vh;
+    margin-bottom: 6vh;
+    animation-name: pfeil;
+    animation-delay: 1.5s;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+
+/*Über Mich*/
+
+.about {
+    padding-bottom: 10vh;
+    margin-top: 7vh
+}
+
+.vorstellung {
+    display: flex;
+    align-items: flex-start;
+    margin: 2vh;
+    flex-shrink: 3;
+}
+
+#ich {
+    height: 25vw;
+    margin-right: 4vh;
+}

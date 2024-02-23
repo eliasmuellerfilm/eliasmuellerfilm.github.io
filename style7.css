@@ -1,0 +1,531 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/*Allgemeine Regeln*/
+
+
+.website-content {
+    background-color: white;
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    padding: 0px;
+    padding-bottom: 0px;
+}
+
+@media screen and (max-width: 425px){
+    .website-content {
+        max-width:90vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    p {
+    font-size: 12px
+}
+    .goback {
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    margin-left: 2vh;
+    margin-top: 2vh;
+    position: relative;
+    font-size: 20px;
+}
+    .credits {
+        flex-direction: column;
+        margin-top: -3vh
+    }
+    .column {
+        margin-top: 2vh
+    }
+    p8 {
+    font-size: 15px
+}
+    p {
+        font-size: 15px;
+    }
+    laura {
+        font-size: 15px;
+    }
+    h3 {
+        font-size: 20px;
+}
+
+    h4 {
+        font-size: 35px;
+        margin-bottom: 5vh
+    }
+}
+
+
+@media screen and (min-width: 426px){
+    .website-content {
+        max-width: 90vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    p {
+    font-size: 12px
+}
+    .goback {
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    margin-left: 4vh;
+    margin-top: 4vh;
+    position: relative;
+    font-size: 20px;
+}
+    .credits {
+        flex-direction: column;
+    }
+    .column {
+        margin-top: 3vh
+    }
+    p8 {
+    font-size: 20px
+}
+    p {
+        font-size: 20px;
+    }
+    laura {
+        font-size: 25px;
+    }
+    h3 {
+        font-size: 20px;
+}
+
+    h4 {
+        font-size: 40px;
+        margin-bottom: 5vh
+    }
+}
+
+@media screen and (min-width: 550px){
+    .website-content {
+        max-width: 85vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    p {
+    font-size: 12px
+}
+    .goback {
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    margin-left: 4vh;
+    margin-top: 4vh;
+    position: relative;
+    font-size: 20px;
+}
+    .credits {
+        flex-direction: column;
+    }
+    .column {
+        margin-top: 3vh
+    }
+    p8 {
+    font-size: 20px
+}
+    p {
+        font-size: 20px;
+    }
+    laura {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 20px;
+}
+
+    h4 {
+        font-size: 40px;
+        margin-bottom: 5vh
+    }
+}
+
+@media screen and (min-width: 650px){
+    .website-content {
+        max-width: 85vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    p {
+    font-size: 15px
+}
+    .goback {
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    margin-left: 4vh;
+    margin-top: 4vh;
+    position: relative;
+    font-size: 20px;
+}
+    .credits {
+        flex-direction: column;
+    }
+    .column {
+        margin-top: 3vh
+    }
+    p8 {
+    font-size: 20px
+}
+    p {
+        font-size: 20px;
+    }
+    laura {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 25px;
+}
+
+    h4 {
+        font-size: 60px;
+        margin-bottom: 5vh
+    }
+}
+
+@media screen and (min-width: 750px){
+    .website-content {
+        max-width: 80vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    p {
+        font-size: 15px
+}
+    .goback {
+        font-family: 'Quicksand', sans-serif;
+        color: black;
+        margin-left: 6vh;
+        margin-top: 6vh;
+        position: relative;
+        font-size: 20px;
+}
+    .credits {
+        flex-direction: column;
+    }
+    .column {
+        margin-top: 3vh
+    }
+    p8 {
+    font-size: 20px
+}
+    p {
+        font-size: 20px;
+    }
+    laura {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 25px;
+}
+
+    h4 {
+        font-size: 60px;
+        margin-bottom: 5vh
+    }
+}
+
+@media screen and (min-width: 1050px){
+    .website-content {
+        max-width: 70vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    p {
+        font-size: 17px
+}
+    .goback {
+        font-family: 'Quicksand', sans-serif;
+        color: black;
+        margin-left: 8vh;
+        margin-top: 8vh;
+        position: relative;
+        font-size: 20px;
+    }
+    .credits {
+        flex-direction: row;
+    }
+    .column {
+        margin-top: 0vh
+    }
+    p8 {
+    font-size: 20px
+}
+    p {
+        font-size: 20px;
+    }
+    laura {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 25px;
+}
+
+    h4 {
+        font-size: 60px;
+        margin-bottom: 5vh
+    }
+}
+
+@media screen and (min-width: 1300px){
+    .website-content {
+        max-width: 60vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    p {
+    font-size: 17px
+}
+    .goback {
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    margin-left: 8vh;
+    margin-top: 8vh;
+    position: relative;
+    font-size: 20px;
+}
+    .credits {
+        flex-direction: row;
+    }
+    .column {
+        margin-top: 3vh
+    }
+    p8 {
+    font-size: 20px
+}
+    p {
+        font-size: 20px;
+    }
+    laura {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 25px;
+}
+
+    h4 {
+        font-size: 60px;
+        margin-bottom: 5vh
+    }
+}
+
+@media screen and (min-width: 1550px){
+    .website-content {
+        max-width: 60vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    p {
+    font-size: 17px
+}
+    .goback {
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    margin-left: 8vh;
+    margin-top: 8vh;
+    position: relative;
+    font-size: 20px;
+}
+    .credits {
+        flex-direction: row;
+    }
+    .column {
+        margin-top: 3vh
+    }
+    p8 {
+    font-size: 20px
+}
+    p {
+        font-size: 20px;
+    }
+    laura {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 25px;
+}
+
+    h4 {
+        font-size: 60px;
+        margin-bottom: 5vh
+    }
+    .subpagetext {
+        max-width: 70%;
+    }
+}
+
+h8 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    padding-top: 2vh;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.contactheader {
+    text-align: center;
+    padding-top: 10vh;
+}
+
+
+body {
+    margin: 0px;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Arbeiten*/
+
+#thumbnail {
+    max-width: 100%;
+    padding: 5px;
+}
+
+#thumbnail:hover {
+    opacity: 0.9;
+    transition: 0.3s;
+}
+
+/*Kontakt*/
+
+footer {
+    background-color: black;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    padding: 25px;
+    padding-bottom: 15vh;
+}
+
+.contact {
+    padding-bottom: 5vh;
+}
+
+.address {
+    text-align: center;
+    margin-top: 100px
+}
+
+p6 {
+    font-weight: 500;
+    margin-top: 10px;
+    
+}
+
+p7 {
+    display: block;
+    margin: 7px;
+}
+
+#mailto {
+    color: white;
+    display: block;
+    margin: 7px;
+}
+
+
+h3, h4, h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin: 0;
+}
+
+
+
+h5 {
+    font-size: 40px;
+    margin-bottom: 5vh
+}
+
+@keyframes start {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+.mercedeswork {
+    margin-top: 7vh;
+    animation-name: start;
+    animation-duration: 0.5s;
+}
+
+.subpagemainfigure, .credits {
+    max-width: 99%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5vh;
+    
+}
+
+.subpagetext {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    margin-bottom: 10vh;
+}
+
+.credits {
+    max-width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 8vh;
+}
+
+.overcolumn {
+    
+}
+
+.column, .column2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.column3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2vh;
+}
+
+.column2 {
+    margin-top: 3vh;
+}
+
+.btsbilder {
+    display: flex;
+    flex-direction: row;
+    max-width: 99%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    margin-bottom: 5vh;
+}
+
+#subpagesmallfigure {
+    max-width: 31%;
+    margin: 0;
+}
