@@ -76,6 +76,9 @@ html {
 .worknav {
     font-size: 15px;
 }
+    p20 {
+        font-size: 15px;
+    }
 }
 
 @media screen and (min-width: 426px){
@@ -502,6 +505,9 @@ html {
     max-width: 0%;
     margin-right: 0vh;
 }
+    .vorstellungstext {
+        font-size: 20px;
+    }
 }
 
 .box {
