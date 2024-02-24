@@ -30,7 +30,7 @@ html {
     margin-left: 2vh;
     margin-top: 2vh;
     position: relative;
-    font-size: 20px;
+    font-size: 15px;
 }
     .credits {
         flex-direction: column;
@@ -71,7 +71,7 @@ html {
     margin-left: 4vh;
     margin-top: 4vh;
     position: relative;
-    font-size: 20px;
+    font-size: 16px;
 }
     .credits {
         flex-direction: column;
@@ -110,7 +110,7 @@ html {
     margin-left: 4vh;
     margin-top: 4vh;
     position: relative;
-    font-size: 20px;
+    font-size: 16px;
 }
     .credits {
         flex-direction: column;
@@ -149,7 +149,7 @@ html {
     margin-left: 4vh;
     margin-top: 4vh;
     position: relative;
-    font-size: 20px;
+    font-size: 17px;
 }
     .credits {
         flex-direction: column;
@@ -188,7 +188,7 @@ html {
         margin-left: 6vh;
         margin-top: 6vh;
         position: relative;
-        font-size: 20px;
+        font-size: 17px;
 }
     .credits {
         flex-direction: row;
@@ -227,7 +227,7 @@ html {
         margin-left: 8vh;
         margin-top: 8vh;
         position: relative;
-        font-size: 20px;
+        font-size: 17px;
     }
     .credits {
         flex-direction: row;
@@ -266,7 +266,7 @@ html {
     margin-left: 8vh;
     margin-top: 8vh;
     position: relative;
-    font-size: 20px;
+    font-size: 17px;
 }
     .credits {
         flex-direction: row;
@@ -305,7 +305,7 @@ html {
     margin-left: 8vh;
     margin-top: 8vh;
     position: relative;
-    font-size: 20px;
+    font-size: 17px;
 }
     .credits {
         flex-direction: row;

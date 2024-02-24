@@ -73,8 +73,11 @@ html {
     max-width: 90%;
     margin-right: 0vh;
 }
-.worknav {
-    font-size: 15px;
+    .vorstellungstext {
+        font-size: 15px;
+    }
+    .worknav {
+        font-size: 15px;
 }
     p20 {
         font-size: 15px;
@@ -139,8 +142,11 @@ html {
     max-width: 0%;
     margin-right: 0vh;
 }
+    .vorstellungstext {
+        font-size: 16px;
+    }
 .worknav {
-    font-size: 15px;
+    font-size: 16px;
 }
 }
 
@@ -202,8 +208,11 @@ html {
     max-width: 0%;
     margin-right: 0vh;
 }
+    .vorstellungstext {
+        font-size: 16px;
+    }
 .worknav {
-    font-size: 15px;
+    font-size: 16px;
 }
 }
 
@@ -265,6 +274,12 @@ html {
     max-width: 0%;
     margin-right: 0vh;
 }
+    .vorstellungstext {
+        font-size: 17px;
+    }
+    .worknav {
+    font-size: 17px;
+}
 }
 
 @media screen and (min-width: 750px){
@@ -324,6 +339,12 @@ html {
     #ich-anfang-2 {
     max-width: 0%;
     margin-right: 0vh;
+}
+    .vorstellungstext {
+        font-size: 17px;
+    }
+    .worknav {
+    font-size: 17px;
 }
 }
 
@@ -385,6 +406,12 @@ html {
     max-width: 0%;
     margin-right: 0vh;
 }
+    .vorstellungstext {
+        font-size: 17px;
+    }
+    .worknav {
+    font-size: 17px;
+}
 }
 
 @media screen and (min-width: 1300px){
@@ -444,6 +471,12 @@ html {
     #ich-anfang-2 {
     max-width: 0%;
     margin-right: 0vh;
+}
+    .vorstellungstext {
+        font-size: 17px;
+    }
+    .worknav {
+    font-size: 17px;
 }
 }
 
@@ -506,8 +539,11 @@ html {
     margin-right: 0vh;
 }
     .vorstellungstext {
-        font-size: 20px;
+        font-size: 17px;
     }
+    .worknav {
+    font-size: 17px;
+}
 }
 
 .box {
