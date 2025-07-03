@@ -14,8 +14,8 @@ html {
     background-color: white;
     font-family: 'Quicksand', sans-serif;
     color: black;
-    padding: 0px;
-    padding-bottom: 0px;
+    padding: px;
+    padding-bottom: px;
 }
 
 @media screen and (max-width: 425px){
@@ -27,51 +27,51 @@ html {
     }
     #ich1 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich2 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich3 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich4 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich5 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich6 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich7 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich-2 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich-3 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich-4 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich-5 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich-anfang {
     max-width: 90%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     .vorstellungstext {
         font-size: 15px;
@@ -80,7 +80,22 @@ html {
         font-size: 15px;
 }
     p20 {
-        font-size: 15px;
+        font-size: 10px;
+    }
+    p10 {
+    font-size: 0px;
+    }
+    h10 {
+    font-size: 17px;
+    }
+    h11 {
+    font-size: 10px;
+    }
+    h12 {
+    font-size: 8px;
+    }
+    h1 {
+    font-size: 25px;
     }
 }
 
@@ -92,55 +107,55 @@ html {
     }
     #ich1 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich2 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich3 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich4 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich5 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich6 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich7 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich-2 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich-3 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich-4 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich-5 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich-anfang {
     max-width: 90%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich-anfang-2 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     .vorstellungstext {
         font-size: 16px;
@@ -148,6 +163,24 @@ html {
 .worknav {
     font-size: 16px;
 }
+    p20 {
+        font-size: 10px;
+    }    
+    p10 {
+    font-size: 0px;
+    }
+    h10 {
+    font-size: 20px;
+    }
+    h11 {
+    font-size: 12px;
+    }
+    h12 {
+    font-size: 10px;
+    }
+    h1 {
+    font-size: 25px;
+    }
 }
 
 @media screen and (min-width: 550px){
@@ -158,19 +191,19 @@ html {
     }
     #ich1 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich2 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich3 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich4 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich5 {
     max-width: 40%;
@@ -178,35 +211,35 @@ html {
 }
     #ich6 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich7 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich-2 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich-3 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich-4 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich-5 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich-anfang {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich-anfang-2 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     .vorstellungstext {
         font-size: 16px;
@@ -214,6 +247,24 @@ html {
 .worknav {
     font-size: 16px;
 }
+    p20 {
+        font-size: 12px;
+    }
+    p10 {
+    font-size: 0px;
+    }
+    h10 {
+    font-size: 20px;
+    }
+    h11 {
+    font-size: 12px;
+    }
+    h12 {
+    font-size: 10px;
+    }
+    h1 {
+    font-size: 25px;
+    }
 }
 
 @media screen and (min-width: 650px){
@@ -224,7 +275,7 @@ html {
     }
 #ich1 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich2 {
     max-width: 40%;
@@ -232,47 +283,47 @@ html {
 }
     #ich3 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich4 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich5 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich6 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich7 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich-2 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich-3 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich-4 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich-5 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich-anfang {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich-anfang-2 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     .vorstellungstext {
         font-size: 17px;
@@ -280,6 +331,21 @@ html {
     .worknav {
     font-size: 17px;
 }
+    p10 {
+    font-size: 0px;
+    }
+    h10 {
+    font-size: 23px;
+    }
+    h11 {
+    font-size: 12px;
+    }
+    h12 {
+    font-size: 10px;
+    }
+    h1 {
+    font-size: 32px;
+    }
 }
 
 @media screen and (min-width: 750px){
@@ -294,51 +360,51 @@ html {
 }
     #ich2 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich3 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich4 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich5 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich6 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich7 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich-2 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich-3 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich-4 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich-5 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich-anfang {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich-anfang-2 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     .vorstellungstext {
         font-size: 17px;
@@ -346,6 +412,21 @@ html {
     .worknav {
     font-size: 17px;
 }
+    p10 {
+    font-size: 0px;
+    }
+    h10 {
+    font-size: 23px;
+    }
+    h11 {
+    font-size: 12px;
+    }
+    h12 {
+    font-size: 10px;
+    }
+    h1 {
+    font-size: 32px;
+    }
 }
 
 @media screen and (min-width: 1050px){
@@ -360,51 +441,51 @@ html {
 }
     #ich2 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich3 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich4 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich5 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich6 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich7 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich-2 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich-3 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich-4 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich-5 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich-anfang {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich-anfang-2 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     .vorstellungstext {
         font-size: 17px;
@@ -412,6 +493,21 @@ html {
     .worknav {
     font-size: 17px;
 }
+    p10 {
+    font-size: 12px;
+    }
+    h10 {
+    font-size: 25px;
+    }
+    h11 {
+    font-size: 15px;
+    }
+    h12 {
+    font-size: 12px;
+    }
+    h1 {
+    font-size: 32px;
+    }
 }
 
 @media screen and (min-width: 1300px){
@@ -422,31 +518,31 @@ html {
     }
 #ich1 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich2 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich3 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich4 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich5 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich6 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich7 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich-2 {
     max-width: 35%;
@@ -454,23 +550,23 @@ html {
 }
     #ich-3 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich-4 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich-5 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich-anfang {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich-anfang-2 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     .vorstellungstext {
         font-size: 17px;
@@ -478,6 +574,21 @@ html {
     .worknav {
     font-size: 17px;
 }
+    p10 {
+    font-size: 12px;
+    }
+    h10 {
+    font-size: 25px;
+    }
+    h11 {
+    font-size: 15px;
+    }
+    h12 {
+    font-size: 12px;
+    }
+    h1 {
+    font-size: 32px;
+    }
 }
 
 @media screen and (min-width: 1550px){
@@ -488,31 +599,31 @@ html {
     }
 #ich1 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich2 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich3 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich4 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich5 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich6 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich7 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich-2 {
     max-width: 30%;
@@ -520,23 +631,23 @@ html {
 }
     #ich-3 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich-4 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich-5 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich-anfang {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     #ich-anfang-2 {
     max-width: 0%;
-    margin-right: 0vh;
+    margin-right: vh;
 }
     .vorstellungstext {
         font-size: 17px;
@@ -544,11 +655,28 @@ html {
     .worknav {
     font-size: 17px;
 }
+    p10 {
+    font-size: 12px;
+    }
+    h10 {
+    font-size: 25px;
+    }
+    h11 {
+    font-size: 15px;
+    }
+    h12 {
+    font-size: 12px;
+    }
+    h1 {
+    font-size: 32px;
+    }
 }
 
 .box {
     background-color: white;
     padding-top: 5vh;
+    border-color: white;
+    border: 5px;
 
 }
 .about, .work, .contact, h2 {
@@ -628,7 +756,9 @@ figure {
 /*Title Screen*/
 
 body {
-    margin: 0px;
+    margin: px;
+    padding: px;
+    border: px;
     background-color: white;
 }
 
@@ -654,7 +784,6 @@ p4 {
     display: block;
     margin: 1vh;
     margin-bottom: 4vh;
-    margin
 }
 
 
@@ -686,9 +815,9 @@ p4 {
 
 @keyframes pfeil {
     0% {margin-top: -2vh; margin-bottom: 6vh; height: 7px; padding-bottom: 3px}
-    25% {margin-top: 0vh; margin-bottom: 4vh; height: 10px; padding-bottom: 0px}
+    25% {margin-top: vh; margin-bottom: 4vh; height: 10px; padding-bottom: px}
     50% {margin-top: -2vh; margin-bottom: 6vh; height: 7px; padding-bottom: 3px}
-    75% {margin-top: 0vh; margin-bottom: 4vh; height: 10px; padding-bottom: 0px}
+    75% {margin-top: vh; margin-bottom: 4vh; height: 10px; padding-bottom: px}
     100% {margin-top: -2vh; margin-bottom: 6vh; height: 7px; padding-bottom: 3px}
 }
 
@@ -779,9 +908,87 @@ em {
 #thumbnail {
     max-width: 100%;
     padding: 5px;
+    margin-left: -1vw;
+
 }
 
-#thumbnail:hover {
+#thumbnailright {
+    max-width: 100%;
+    padding: 5px;
+    margin-left: 1vw;
+
+}
+
+.picture {
+    max-width: 50%;
+}
+
+h10 {font-family: 'Montserrat', sans-serif;
+/*    font-size: 25px;*/
+    font-weight: 600;
+    padding-top: vh;
+    display: block}
+h11 {font-family: 'Montserrat', sans-serif;
+/*    font-size: 15px;*/
+    font-weight: 250;
+    padding-top: vh;
+    display: block}
+h12 {font-family: 'Montserrat', sans-serif;
+/*    font-size: 12px;*/
+    font-weight: 400;
+    display: block}
+
+p10 {
+    font-family: 'Quicksand', 'sans-serif';
+/*    font-size: 12px;*/
+    font-weight: 150;
+    display: block;
+}
+
+#morework {
+    border-radius: 30px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 30px;
+    background-color: black;
+    color: white;
+}
+
+.subheading{
+        padding-bottom: 1.75vh;
+}
+
+#example1 {
+    display: flex;
+    flex-direction: row;
+    margin: px;
+    border: px;
+    padding: px;
+    margin-top: 3vw;
+}
+
+
+.sub{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 3vw;
+    margin-right: -0vw;
+    z-index: 1;
+}
+
+.sub2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 3vw;
+    z-index: 1;
+}
+
+.a:hover {
     opacity: 0.9;
     transition: 0.3s;
 }
@@ -937,6 +1144,10 @@ p8 {
     font-size: 20px
 }
 
+p23{
+    color: white;
+}
+
 @keyframes start {
     0% {opacity: 0}
     100% {opacity: 1}
@@ -972,9 +1183,9 @@ p8 {
     margin-bottom: 8vh;
 }
 
-.overcolumn {
+/*.overcolumn { 
     
-}
+}*/
 
 .column, .column2 {
     display: flex;
