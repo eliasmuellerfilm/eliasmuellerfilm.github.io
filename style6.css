@@ -143,6 +143,10 @@ html {
     }
 }
 
+p23 {
+    color:white;
+}
+
 @media screen and (min-width: 650px){
     .website-content {
         max-width: 85vw;
@@ -478,6 +482,14 @@ h5 {
     margin-right: auto;
     margin-bottom: 5vh;
     
+}
+
+.embeddedplayer {
+    max-width: 99%;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    margin-bottom: 5vh;
+    margin-top: 2vh
 }
 
 .subpagetext {

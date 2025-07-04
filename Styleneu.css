@@ -1,0 +1,1072 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+/*Allgemeine Regeln*/
+
+.website-content {
+    background-color: white;
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    padding: 0px;
+    padding-bottom: 0px;
+}
+
+.box {
+    background-color: white;
+    padding-top: 5vh;
+
+}
+.about, .work, .contact, h2 {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2vw;
+    
+}
+
+.workstart, .workwer, .workdok, .workspi {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 10vh;
+}
+
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding-top: 2vh;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h8 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3vh;
+    font-weight: 600;
+    padding-top: 2vh;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+figure {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+.workspi {
+    justify-content: space-between;
+}
+
+.contactheader {
+    text-align: center;
+    padding-top: 10vh;
+}
+
+
+
+/*Title Screen*/
+
+body {
+    margin: 0px;
+    background-color: white;
+}
+
+#logo {
+    max-width: 70%;
+    margin-top: 15vh;
+    margin-left: 14vw;
+}
+
+#myVideo {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+p4 {
+    display: block;
+    margin: 1vh;
+    margin-bottom: 4vh;
+    margin
+}
+
+
+/*Scroll down Fade-In Animation*/
+
+@keyframes scrolldown {
+    0% {opacity: 0;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.scrolldown {
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 15vh;
+    animation-name: scrolldown;
+    animation-duration: 3s;
+}
+
+
+/*Pfeil Animation*/
+
+@keyframes pfeil {
+    0% {margin-top: -2vh; margin-bottom: 6vh; height: 7px; padding-bottom: 3px}
+    25% {margin-top: 0vh; margin-bottom: 4vh; height: 10px; padding-bottom: 0px}
+    50% {margin-top: -2vh; margin-bottom: 6vh; height: 7px; padding-bottom: 3px}
+    75% {margin-top: 0vh; margin-bottom: 4vh; height: 10px; padding-bottom: 0px}
+    100% {margin-top: -2vh; margin-bottom: 6vh; height: 7px; padding-bottom: 3px}
+}
+
+#pfeil {
+    position: relative;
+    width: 18px;
+    margin-top: -2vh;
+    margin-bottom: 6vh;
+    animation-name: pfeil;
+    animation-delay: 1.5s;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+
+
+@media screen and (max-width: 425px){
+    .website-content {
+        background-color: white;
+        max-width:95vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #ich1 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich2 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich3 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich4 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich5 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich6 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich7 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich-2 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich-3 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich-4 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich-5 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich-anfang {
+    max-width: 90%;
+    margin-right: 0vh;
+}
+    .vorstellungstext {
+        font-size: 15px;
+    }
+    .worknav {
+        font-size: 15px;
+}
+
+    p10 {
+    font-size: 0px;
+    }
+     .subtext {
+        height: 0px;
+    }
+    p20{
+        font-size: 15px
+    }
+    h10 {
+    font-size: 20px;
+    }
+    h11 {
+    font-size: 13px;
+    }
+    h12 {
+    font-size: 0px;
+    }
+    h1 {
+    font-size: 25px;
+    }
+}
+@media screen and (min-width: 426px){
+    .website-content {
+        max-width: 90vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #ich1 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich2 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich3 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich4 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich5 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich6 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich7 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich-2 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich-3 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich-4 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich-5 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich-anfang {
+    max-width: 90%;
+    margin-right: 0vh;
+}
+    #ich-anfang-2 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    .vorstellungstext {
+        font-size: 16px;
+    }
+.worknav {
+    font-size: 16px;
+}
+    p10 {
+    font-size: 0px;
+    }
+     .subtext {
+        height: 0px;
+    }
+    p20{
+        font-size: 15px
+    }
+    h10 {
+    font-size: 20px;
+    }
+    h11 {
+    font-size: 13px;
+    }
+    h12 {
+    font-size: 10px;
+    }
+    h1 {
+    font-size: 25px;
+    }
+    
+    
+}
+@media screen and (min-width: 550px){
+    .website-content {
+        max-width: 85vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #ich1 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich2 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich3 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich4 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich5 {
+    max-width: 40%;
+    margin-right: 2vh;
+}
+    #ich6 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich7 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich-2 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich-3 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich-4 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich-5 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich-anfang {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich-anfang-2 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    .vorstellungstext {
+        font-size: 16px;
+    }
+.worknav {
+    font-size: 16px;
+}
+    p10 {
+    font-size: 0px;
+    }
+     .subtext {
+        height: 0px;
+    }
+    p20{
+        font-size: 15px
+    }
+    h10 {
+    font-size: 23px;
+    }
+    h11 {
+    font-size: 15px;
+    }
+    h12 {
+    font-size: 13px;
+    }
+    h1 {
+    font-size: 25px;
+    }
+}
+@media screen and (min-width: 650px){
+    .website-content {
+        max-width: 85vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+#ich1 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich2 {
+    max-width: 40%;
+    margin-right: 2vh;
+}
+    #ich3 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich4 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich5 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich6 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich7 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich-2 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich-3 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich-4 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich-5 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich-anfang {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich-anfang-2 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    .vorstellungstext {
+        font-size: 17px;
+    }
+    .worknav {
+    font-size: 17px;
+}
+    p10 {
+    font-size: 0px;
+    }
+     .subtext {
+        height: 0px;
+    }
+    p20{
+        font-size: 15px
+    }
+     .subtext {
+        height: 0px;
+    }
+    p20{
+        font-size: 15px
+    }
+    h10 {
+    font-size: 25px;
+    }
+    h11 {
+    font-size: 17px;
+    }
+    h12 {
+    font-size: 13px;
+    }
+    h1 {
+    font-size: 32px;
+    }
+}
+@media screen and (min-width: 750px){
+    .website-content {
+        max-width: 80vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+#ich1 {
+    max-width: 40%;
+    margin-right: 3vh;
+}
+    #ich2 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich3 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich4 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich5 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich6 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich7 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich-2 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich-3 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich-4 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich-5 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich-anfang {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich-anfang-2 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    .vorstellungstext {
+        font-size: 17px;
+    }
+    .worknav {
+    font-size: 17px;
+}
+    p10 {
+    font-size: 0px;
+    }
+     .subtext {
+        height: 0px;
+    }
+    p20{
+        font-size: 15px
+    }
+     .subtext {
+        height: 0px;
+    }
+    p20{
+        font-size: 15px
+    }
+    h10 {
+    font-size: 25px;
+    }
+    h11 {
+    font-size: 17px;
+    }
+    h12 {
+    font-size: 13px;
+    }
+    h1 {
+    font-size: 32px;
+    }
+}
+@media screen and (min-width: 1050px){
+    .website-content {
+        max-width: 70vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+#ich1 {
+    max-width: 35%;
+    margin-right: 3vh;
+}
+    #ich2 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich3 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich4 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich5 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich6 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich7 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich-2 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich-3 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich-4 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich-5 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich-anfang {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich-anfang-2 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    .vorstellungstext {
+        font-size: 17px;
+    }
+    .worknav {
+    font-size: 17px;
+}
+    p10 {
+    font-size: 0px;
+    }
+    
+    .subtext {
+        height: 0px;
+    }
+    p20{
+        font-size: 15px;
+    }
+    h10 {
+    font-size: 30px;
+    }
+    h11 {
+    font-size: 19px;
+    }
+    h12 {
+    font-size: 15px;
+    }
+    h1 {
+    font-size: 32px;
+    }
+}
+@media screen and (min-width: 1300px){
+    .website-content {
+        max-width: 60vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+#ich1 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich2 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich3 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich4 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich5 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich6 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich7 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich-2 {
+    max-width: 35%;
+    margin-right: 3vh;
+}
+    #ich-3 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich-4 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich-5 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich-anfang {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich-anfang-2 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    .vorstellungstext {
+        font-size: 17px;
+    }
+    .worknav {
+    font-size: 17px;
+}
+    p10 {
+    font-size: 13px;
+    }
+    p20{
+        font-size: 15px;
+    }
+    h10 {
+    font-size: 30px;
+    }
+    h11 {
+    font-size: 19px;
+    }
+    h12 {
+    font-size: 15px;
+    }
+    h1 {
+    font-size: 32px;
+    }
+}
+@media screen and (min-width: 1550px){
+    .website-content {
+        max-width: 60vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+#ich1 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich2 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich3 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich4 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich5 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich6 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich7 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich-2 {
+    max-width: 30%;
+    margin-right: 3vh;
+}
+    #ich-3 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich-4 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich-5 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich-anfang {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    #ich-anfang-2 {
+    max-width: 0%;
+    margin-right: 0vh;
+}
+    .vorstellungstext {
+        font-size: px;
+    }
+    .worknav {
+    font-size: 17px;
+}
+    p10 {
+    font-size: 15px;
+    }
+    p20 {
+        font-size: 15px;
+    }
+    h10 {
+    font-size: 30px;
+    }
+    h11 {
+    font-size: 19px;
+    }
+    h12 {
+    font-size: 15px;
+    }
+    h1 {
+    font-size: 32px;
+    }
+}
+
+
+#morework {
+    border-radius: 30px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 30px;
+    background-color: black;
+    color: white;
+}
+
+.subheading{
+        padding-bottom: 1.75vh;
+}
+
+#example1 {
+    display: flex;
+    flex-direction: row;
+    margin: px;
+    border: px;
+    padding: px;
+    margin-top: 3vw;
+}
+
+
+.sub{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 3vw;
+    margin-right: -0vw;
+    z-index: 1;
+}
+
+.sub2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 3vw;
+    z-index: 1;
+}
+
+
+/*Über Mich*/
+
+.about {
+    padding-bottom: 10vh;
+    margin-top: 7vh
+}
+
+.vorstellung {
+    display: flex;
+    align-items: flex-start;
+    margin: 2vh;
+}
+
+.anfangsbild {
+    display: flex;
+    align-items: flex-start;
+    margin: 2vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#ich-anfang {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#ich-anfang-2 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*Arbeiten-Navigation*/
+
+.worknav {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding: 2vw;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    margin-top: -20px;
+    background-color: white;
+    z-index: 150;
+}
+
+p5, .worklink {
+    margin-right: 10px;
+    color: black;
+}
+
+em {
+    font-style: normal;
+    font-weight: 1000;
+}
+
+
+/*Arbeiten*/
+
+#thumbnail {
+    max-width: 100%;
+    padding: 5px;
+    margin-left: -1vw;
+
+}
+
+#thumbnailright {
+    max-width: 100%;
+    padding: 5px;
+    margin-left: 1vw;
+
+}
+
+.picture {
+    max-width: 50%;
+}
+
+h10 {font-family: 'Montserrat', sans-serif;
+/*    font-size: 25px;*/
+    font-weight: 600;
+    padding-top: vh;
+    display: block}
+h11 {font-family: 'Montserrat', sans-serif;
+/*    font-size: 15px;*/
+    font-weight: 250;
+    padding-top: vh;
+    display: block}
+h12 {font-family: 'Montserrat', sans-serif;
+/*    font-size: 12px;*/
+    font-weight: 400;
+    display: block}
+
+#thumbnail:hover {
+    opacity: 0.9;
+    transition: 0.3s;
+}
+
+#plakat {
+    max-width: 50%;
+    padding: 15px;
+    margin-right: -200px;
+}
+
+#movie {
+    margin-right: -200px;
+    max-width: 50%;
+}
+
+figcation {
+    text-align: center;
+}
+
+#tile {
+    max-width: 50%;
+}
+
+#moviefigcaption {
+    max-width: 52%;
+    text-align: center;
+}
+
+
+
+/*Kontakt*/
+
+footer {
+    background-color: black;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    padding: 25px;
+    padding-bottom: 15vh;
+}
+
+.contact {
+    padding-bottom: 5vh;
+}
+
+.address {
+    text-align: center;
+    margin-top: 100px
+}
+
+p6 {
+    font-weight: 500;
+    margin-top: 10px;
+    
+}
+
+p7 {
+    display: block;
+    margin: 7px;
+}
+
+#mailto {
+    color: white;
+    display: block;
+    margin: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
