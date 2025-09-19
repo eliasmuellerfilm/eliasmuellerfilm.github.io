@@ -492,6 +492,15 @@ h5 {
     margin-top: 2vh
 }
 
+.p78 {
+   color: white; 
+}
+
+.spvideo {
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+}
+
 .subpagetext {
     margin-left: auto;
     margin-right: auto;
@@ -506,6 +515,26 @@ h5 {
     margin-bottom: 8vh;
 }
 
+.verticalvidcontainer{
+    width: 60%;
+    margin-left: -10vw;
+    margin-right: -10vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+.twoverticalvideos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+.hauptvideo {
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-bottom: 5vw;
+}
 .overcolumn {
     
 }
